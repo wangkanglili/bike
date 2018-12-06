@@ -242,6 +242,7 @@ svg{
 /* IPAD 没有版心 全屏 1080 */
 @media screen and (max-width: 1080px) {
     .container-md{width: 100%;box-sizing: border-box}
+    .title h1{font-size: 280%;}
     .hero-promo{width: 50%;}
     .header-right{display: none;}
     .menu{display: block}
