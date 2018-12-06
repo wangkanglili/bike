@@ -144,6 +144,7 @@ html,body, .swiper-container{width: 100%;height: 100%;font-family: 'Helvetica Ne
     display: inline-block;
     width: 33.33%;
     height: 45px;
+    padding: 20px 0;
 }
 .meta-link .pic{
     width: 50px;
@@ -248,22 +249,22 @@ svg{
 /* phone  640*/
 @media screen and (max-width: 640px) {
     .hero-promo{width: 100%;}
-    .meta-link{width: 100%}
+    .meta-link{width: 50%}
     .footer-logo{height: 100%}
     .footer-right ul{width: 50%;height:125px;margin-bottom: 40px;}
 }
 /*580*/
 @media screen and (max-width: 580px) {
     .hero-promo{width: 100%;}
-    .meta-link{width: 100%}
+    .meta-link{width: 50%;}
     .footer-left{width: 100%;}
     .footer-left,.footer-right{margin-bottom: 40px;}
     .footer-right{float: none;}
 }
 /*462*/
-@media screen and (max-width: 462px) {
+@media screen and (max-width: 460px) {
     .hero-promo{width: 100%;}
-    .meta-link{width: 100%}
+    .meta-link{width: 100%;}
     .footer-left{width: 100%;}
     .footer{padding: 45px 0;}
     .container-md .copy{width: 100%;margin: 0 40px 40px 0;}
